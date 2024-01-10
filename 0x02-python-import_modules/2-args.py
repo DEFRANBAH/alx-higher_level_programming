@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+#that adds the number of arguments passed
+
 import sys
 
 count = len(sys.argv) - 1
