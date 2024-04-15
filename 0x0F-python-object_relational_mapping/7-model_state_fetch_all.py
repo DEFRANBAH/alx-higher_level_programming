@@ -1,4 +1,4 @@
-#!/usr/bin/venv python3
+#!/usr/bin/python3
 
 """
 Module to list all State objects from the database hbtn_0e_6_usa.   
@@ -14,7 +14,7 @@ if __name__ == "__main__":
                             .format(sys.argv[1], sys.argv[2], sys.argv[3]))
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
-    session = Sesssion()
+    session = Session()
 
     for state in session.query(State).order_by(State.id).all():
         print("{}: {}".format(state.id, state.name))
