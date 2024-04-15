@@ -1,4 +1,4 @@
-#!/usr/bin/venv python3
+#!/usr/bin/python3
 """
 This module defines a class called State that inherits from Base.
 these are instances of declarative_base() class.
