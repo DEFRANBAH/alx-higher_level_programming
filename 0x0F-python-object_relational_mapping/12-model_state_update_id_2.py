@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" prints the State object with the name passed as argument from the database
+""" updates the State instance id with a different instance name attribute passed as argument from the database
 """
 import sys
 from model_state import Base, State
